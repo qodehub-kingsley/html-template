@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
 
 const   gulp   = require('gulp'),
-        uglify = require("gulp-uglify"),
+        terser = require("gulp-terser"),
         sass   = require("gulp-sass"),
         pug    = require("gulp-pug"),
         concat = require("gulp-concat"),
@@ -14,7 +14,7 @@ gulp.task("js", function (cb) {
             "src/js/**/*.js"
         ])
         .pipe(concat('app.js'))
-        .pipe(uglify())
+        .pipe(terser())
         .pipe(gulp.dest("./dist/js/"));
 });
 

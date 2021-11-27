@@ -87,7 +87,7 @@ Make sure [Node JS](https://nodejs.org), [NPM](https://www.npmjs.com) and [Gulp]
 
 ## Gulp Plugins
 
-* [gulp-uglify](https://www.npmjs.com/package/gulp-uglify) : Minify your JS.
+* [gulp-terser](https://www.npmjs.com/package/gulp-terser) : Minify your JS (Supports ES6-8 features).
 * [gulp-sass](https://www.npmjs.com/package/gulp-sass) : Compile your Sass into CSS.
 * [gulp-pug](https://www.npmjs.com/package/gulp-pug) : Gulp plugin for compiling Pug templates, compile Pug into HTML.
 * [gulp-concat](https://www.npmjs.com/package/gulp-concat) : Combines and rename files.
